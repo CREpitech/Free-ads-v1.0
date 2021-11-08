@@ -1,0 +1,151 @@
+/* GENERAL */
+
+* {
+    font-family: "Arial";
+}
+
+#add {
+    background-color: #EEE;
+    margin: 0;
+    padding: 50px 250px;
+}
+
+/* TITLE */
+
+#add_title {
+    text-align: left;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/*UPLOAD IMAGE */
+
+#add_form_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px lightgrey;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#add_form_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    width: 90%;
+    height: 70%;
+    border: 2px dashed lightgrey;
+}
+
+#add_form_image_upload {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+      color: #03b3ba;
+      border: 2px solid #03b3ba;
+     border-radius: 5px;
+      padding: 11px;
+      font-size: 18px;
+}
+
+#add_form_image_upload::-webkit-file-upload-button {
+  border: 2px solid #03b3ba;
+  border-radius: 5px;
+  color: #03b3ba;
+  background-color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+#add_form_image_upload::-webkit-file-upload-button:hover {
+  color: white;
+  background-color: #03b3ba;
+}
+
+/* ERROR */
+
+.error {
+    margin: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* CONTENT */
+
+.add_form_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+}
+
+.add_form_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-align-items: center;
+    box-shadow: 1px 1px 2px lightgrey;
+    width: 100%;
+    height: 150px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.add_form_content_h2 {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.add_form_content_input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #03b3ba;
+}
+
+.add_form_content_textarea {
+    border: none;
+    border-bottom: 2px solid #03b3ba;
+    resize : none;
+}
+
+.add_form_category_select {
+    width: 150px;
+    height: 30px;
+    border: none;
+
+    border-bottom: 2px solid #03b3ba;
+}
+
+
+/* UPLOAD */
+
+#form_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #03b3ba;
+    border-radius: 10px;
+    color: #03b3ba;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#form_button:hover {
+    color: white;
+    background-color: #03b3ba;
+}
